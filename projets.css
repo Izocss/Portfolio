@@ -1,0 +1,148 @@
+*, html, ::after, ::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: arial ;
+}
+.menu{
+	display: flex;
+	padding: 0;
+	justify-content: center;
+	background-color: #1AB5FE;
+	margin: 0;
+	font-family: arial;
+}
+.menu a {
+	display: block;
+	min-width: 120px;
+	text-decoration: none;
+	color: black;
+	align-content: space-between;
+	margin: 0.5rem;
+	padding: 0.4rem 0;
+	text-align: center;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 4px;
+	transition: all 1s;
+}
+.menu a:hover{
+	background-color: #1AB5FE;
+	color: #f1f1f1;
+	border-color: #2b2b2b;
+	transform: scale(1.2);
+}
+.menu li {
+	list-style: none;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px ;
+	margin-bottom: 20px;
+}
+
+#bvn {
+	background: linear-gradient(to top,#89C4F4,#1AB5FE);
+	text-align: center;
+	height: 30vh;
+}
+#bvn h2{
+	margin: 5px;
+}
+#bvn img{
+	width: 150px;
+	transition: all 1s;
+}
+#bvn img:hover{
+	transform: rotate(360deg);
+	transition-duration: 1s;
+}
+footer {
+	justify-content: center;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	background: linear-gradient(to bottom,#89C4F4,#1AB5FE);
+	padding: 25px;
+}
+footer h2{
+	text-decoration: blink;
+	font-family: arial;
+	margin-top: 30px;
+	text-align: center;
+}
+.image {
+	justify-content: center;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+.image li{
+	list-style: none;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+
+}
+.image li a img{
+	width: 100px;
+	height: 100px;
+}
+.image a{
+	display: block;
+	min-width: 120px;
+	text-decoration: none;
+	color: black;
+	align-content: space-between;
+	margin: 0.5rem;
+	padding: 0.4rem 0;
+	text-align: center;
+
+	transition: all 1s;
+
+}
+.image a:hover{
+	transform: scale(1.2);
+	}
+#actu {
+	width: 100%;
+	background-color: white ;
+	border-radius: 5px;
+}
+#actu h2 {
+	margin-top: 70px;
+	margin-left: 70px;
+	font-size: 50px;
+}
+.montage {
+	width: 25%;
+	height: 25%;
+	margin-left: 950px;
+	top: -140px;
+	position: relative;
+	transition: all 1s;
+}
+.textea {
+	margin-left: 70px;
+	font-family: arial;
+	font-size: 30px;
+	margin-top: 70px;
+}
+
+.montage:hover{
+	transform:rotate(360deg);
+	transition-duration: 1s;
+}
+.textec {
+	text-align: left;
+	width: 900px;
+	margin-left: 50px;
+}
+.cv {
+	height: 30%;
+	width: 30%;
+	margin-left: 1000px;
+	margin-top: -600px;
+}
