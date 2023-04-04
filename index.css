@@ -145,7 +145,7 @@ footer h2{
 	transform: perspective(100rem) rotateX(18deg) rotateY(26deg) rotate(-10deg) translateY(-6rem);
 	transition-duration: 0.3s;
 }
-.montage:hover, .suzume:hover {
+.montage:hover, .suzume:hover{
 	transform: translateY(-4rem);
 	transition-duration: 0.3s;
 }
@@ -162,7 +162,7 @@ footer h2{
 }
 #gallery-bloc{
 	padding: 20px;
-	margin-bottom: 10%;
+	margin-bottom: 4%;
 	background-color: white;
 	height: 75vh;
 	border-radius: 5px;
@@ -226,4 +226,39 @@ footer h2{
 }
 .profile-card:hover .profile-info {
 	transform: translate(0);
+}
+.carnet-bloc{
+		width: 100%;
+		background-color: white ;
+		border-radius: 5px;
+		padding: 20px;
+}
+.carnet-bloc h2 {
+	margin-left: 70px;
+	font-size: 50px;
+	padding: 20px;
+}
+.carnet-bloc img {
+	display: block;
+	margin: auto;
+	margin-top: 90px;
+	width: 50%;
+	height: 40%;
+	border: 4px solid black;
+	border-radius: 5px;
+	box-shadow: 2px 5px 5px black;
+	transform: perspective(100rem) rotateX(18deg) rotateY(0deg) rotate(0deg) translateY(-6rem);
+	transition-duration: 0.3s;
+
+}
+.carnet-bloc p {
+	text-align: center;
+	font-size: 30px;
+	font-family: arial;
+	margin-bottom: 20px;
+}
+.carnet-bloc img:hover{
+	transform: translateY(-4rem);
+	transition-duration: 0.3s;
+	cursor: pointer;
 }
