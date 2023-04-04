@@ -238,7 +238,7 @@ footer h2{
 	font-size: 50px;
 	padding: 20px;
 }
-.carnet-bloc a img {
+.carnet-bloc img {
 	display: block;
 	margin: auto;
 	margin-top: 90px;
@@ -257,7 +257,7 @@ footer h2{
 	font-family: arial;
 	margin-bottom: 20px;
 }
-.carnet-bloc a img:hover{
+.carnet-bloc img:hover{
 	transform: translateY(-4rem);
 	transition-duration: 0.3s;
 	cursor: pointer;
